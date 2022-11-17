@@ -1,0 +1,9 @@
+
+# ./check-package-not-keyworded.sh
+
+check package whether has riscv keyword
+
+```
+cat /var/lib/portage/world | xargs -i sh -c './check-package-not-keyworded.sh {}'
+```
+
